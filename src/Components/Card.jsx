@@ -3,7 +3,7 @@ import React from "react";
 //que envia el usuario
 
 const Card = ({element}) => {
-  console.log(props);
+  //console.log(props);
   return (<div>
     <h3>Informacion Enviada</h3>
     <p>Input 1: {element.input1}</p>
