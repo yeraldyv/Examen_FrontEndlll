@@ -28,10 +28,10 @@ function App() {
         setInput1={setInput1}
         input2={input2}
         setInput2={setInput2}
-        handleSubmit={(evento) => handleSubmit(evento)}
+        handleSubmit={handleSubmit}
         error={error}
       />
-      <Card />
+      {submittedData && <Card element={submittedData} />}
     </div>
   );
 }

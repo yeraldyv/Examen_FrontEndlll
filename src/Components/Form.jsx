@@ -1,13 +1,6 @@
 import React from "react";
 
-const Form = ({
-  input1,
-  setInput1,
-  input2,
-  setInput2,
-  handleSubmit,
-  error,
-}) => {
+const Form = ({ input1, setInput1, input2, setInput2, handleSubmit, error}) => {
 
   return (
     <div>
